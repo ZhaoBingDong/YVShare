@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YVShare_Example' do
+  pod 'YVShare', :path => '../'
+
+  target 'YVShare_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
